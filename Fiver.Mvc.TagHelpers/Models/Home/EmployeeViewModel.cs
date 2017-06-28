@@ -30,7 +30,7 @@ namespace Fiver.Mvc.TagHelpers.Models.Home
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [DataType(DataType.Date)] // type=Date, default was datetime
+        [DataType(DataType.Date)]
         public DateTime BirthDate { get; set; }
 
         public double Salary { get; set; }
