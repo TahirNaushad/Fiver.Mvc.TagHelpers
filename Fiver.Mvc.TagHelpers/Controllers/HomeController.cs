@@ -16,6 +16,7 @@ namespace Fiver.Mvc.TagHelpers.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Index(EmployeeViewModel model)
         {
             if (!ModelState.IsValid)
